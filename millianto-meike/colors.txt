@@ -1,3 +1,0 @@
-utk warna font:
-hitam: black 100%
-gold: C20 M35 Y85 #CCA626
