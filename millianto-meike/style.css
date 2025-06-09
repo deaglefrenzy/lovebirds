@@ -1,0 +1,55 @@
+@font-face { font-family: minion; src: url('fonts/Minion Display Regular.otf'); }
+@font-face { font-family: minioni; src: url('fonts/Minion Display Italic.otf'); }
+@font-face { font-family: trajan; src: url('fonts/TrajanPro-Bold.otf'); }
+@font-face { font-family: cinzel; src: url('fonts/Cinzel-Regular_1.otf'); }
+@font-face { font-family: butlerreg; src: url('fonts/BUTLER_REGULAR.OTF'); }
+@font-face { font-family: butlerbold; src: url('fonts/BUTLER_BOLD.OTF'); }
+@font-face { font-family: brit; src: url('fonts/britanic.ttf'); }
+@font-face { font-family: tbc; src: url('fonts/trebuc.ttf'); }
+@font-face { font-family: tbi; src: url('fonts/trebucbi.ttf'); }
+@font-face { font-family: tit; src: url('fonts/trebucit.ttf'); }
+@font-face { font-family: blacksword; src: url('fonts/Blacksword.otf'); }
+@font-face { font-family: aire; src: url('fonts/AireBoldItalicStd.ttf'); }
+@font-face { font-family: bodoni; src: url('fonts/BodoniModa-VariableFont_opsz,wght.ttf'); }
+@font-face { font-family: florilane; src: url('fonts/Florilane Cardillac.ttf'); }
+@font-face { font-family: foglihten; src: url('fonts/FoglihtenPCS-068_1.otf'); }
+@font-face { font-family: qaskin; src: url('fonts/QaskinBlack_PersonalUse_0.ttf'); }
+@font-face { font-family: aston; src: url('fonts/Aston Script.ttf'); }
+@font-face { font-family: helvetica; src: url('fonts/HelveticaNeueRoman.otf'); }
+@font-face { font-family: goldenhill; src: url('fonts/GoldenHillsDEMO.ttf'); }
+@font-face { font-family: highspirited; src: url('fonts/High Spirited.ttf'); }
+@font-face { font-family: permapetit; src: url('fonts/ParmaPetit-Normal_1.ttf'); }
+@font-face { font-family: aboreto; src: url('fonts/Aboreto-Regular.ttf'); }
+@font-face { font-family: afterglow; src: url('fonts/Afterglow-Regular.ttf'); }
+
+body, html {height: 100%}
+p {line-height: 2}
+
+a{text-decoration: none;}
+.fontcream{
+	color:#FFF7E0;
+}
+.bgcream{
+	background:#FFF7E0;
+}
+.fontgold{
+	color:#B97F00;
+}
+.bggold{
+	background:#B97F00;
+}
+.fontabu{
+	color:#191919;
+}
+.fcoklat{
+	color:#633A11;
+}
+.bgungu{
+	background:#E3BFFF;
+}
+.fontungu{
+	color:#BD4AFF;
+}
+.fontpeach{
+	color:#E68C78;
+}
