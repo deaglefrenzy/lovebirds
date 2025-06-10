@@ -1,22 +1,7 @@
 .scripts/connection.php
-.fonts/
-.favicon/
-.images/
-.phpqrcode/
-
-// Ignore all image files
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.bmp
-*.webp
-*.ico
-*.tiff
-*.psd
+.old/
 
 **/error_log
 **/temp/
-**/material/
+**/material/raw/
 millianto-meike/
