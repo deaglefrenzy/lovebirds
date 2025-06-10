@@ -139,7 +139,7 @@ include("../.scripts/handlers.php");
                 </div>
                 <div style="font-family: bodoni; font-style:italic; line-height:15px;" class="w3-small fo5" align=center>
                     The only daughter of<br>
-                    Mr. Tjiang Tian Hok & Mrs. Indra Chandra
+                    Mr. Felix Phoander & Mrs. Indra Chandra
                 </div>
             </div>
         </div>

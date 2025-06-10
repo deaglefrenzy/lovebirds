@@ -1,0 +1,7 @@
+background:
+cream muda: C1 M1 Y5 K0
+cream tua: C8 M8 Y14 K0
+
+font:
+coklat: C52 M52 Y65 K30
+coklat tua(hashtag): C50 M70 Y80 K75

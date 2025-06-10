@@ -132,3 +132,13 @@
 	font-family: miltontwob;
 	src: url('../.fonts/Milton_Two_Bold.otf');
 }
+
+@font-face {
+	font-family: manstein;
+	src: url('../.fonts/Manstein.ttf');
+}
+
+@font-face {
+	font-family: arolse;
+	src: url('../.fonts/Arolse\ Belmonteria\ Script.otf');
+}
