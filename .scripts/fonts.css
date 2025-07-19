@@ -142,3 +142,8 @@
 	font-family: arolse;
 	src: url('../.fonts/Arolse\ Belmonteria\ Script.otf');
 }
+
+@font-face {
+	font-family: greatvibes;
+	src: url('../.fonts/GreatVibes-Regular.ttf');
+}

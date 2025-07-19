@@ -26,7 +26,7 @@
         $tab = "Meja";
         $tam = "Tamu";
     } else {
-        $kepadayth = "To: Mr/Mrs/Ms/Mr & Mrs";
+        $kepadayth = "Mr/Mrs/Ms/Mr & Mrs";
         $tab = "Table";
         $tam = "Guest(s)";
     }
@@ -46,9 +46,12 @@
             </font>
         </div>
     </div>
-        <div style="height: 30px;"></div>-->
+        -->
+        <img src="material/logo1.png" style="width:75%">
+        <div style="height: 270px;"></div>
         <div align="center" data-aos="fade">
             <p style="font-family:'<?php echo $efont; ?>'; letter-spacing:1px; line-height:15px;">
+                Invitation To:<br>
                 <?= $kepadayth ?>
                 <br><br>
                 <font class="w3-xlarge" style="font-family:'<?php echo $efont; ?>'; letter-spacing:1px; line-height:20px;">
@@ -80,12 +83,16 @@
                 <br>
                 <?php echo $data; ?>
             <?php } ?>
+            <br>
+            </p>
+            <p style="font-family:minioni; line-height:15px;" class="w3-tiny">
+                We warmly invite you to attend our wedding.
+                <br>
+                Please take a screenshot of this page and show it at the registration desk upon arrival.
             </p>
         </div>
-        <div style="height: 150px;"></div>
-        <img src="material/logo1.png" style="width:85%">
-        <div style="height: 20px;"></div>
-        <button id="open-invitation"><img src="material/openinvitation.png" style="width: 200px;"></button>
+        <div style="height: 10px;"></div>
+        <button id="open-invitation"><img src="material/openinvitation.png" style="width: 300px;"></button>
         <div style="height: 10px;"></div>
         <!-- <form id="invitationForm" action="invitation.php" method="get">
             <input type="hidden" name="to" value="<?php echo $to; ?>">

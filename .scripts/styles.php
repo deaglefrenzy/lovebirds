@@ -74,7 +74,7 @@
         /* Include padding in height calculation */
         overflow: hidden;
         /* hide overflowing button on open animation */
-        background-image: url("material/envelope.jpg");
+        background-image: url("material/envelope.png");
         background-size: 100%;
         background-repeat: no-repeat;
         /*transform-origin: top center;  Add this line */

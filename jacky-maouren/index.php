@@ -58,6 +58,7 @@ include("../.scripts/handlers.php");
 
         <div id="invitation-content" class="fo5 bg1">
             <img src="material/bg1.png" style="width: 100%;">
+            <img src="material/logo2.png" style="width: 55%; margin-top:-170px;">
             <br><br>
             <div align="center" class="w3-small" data-aos="slide-right" data-aos-easing="ease-out-back">
                 <table width="80%" align="center" border="0">
@@ -82,146 +83,230 @@ include("../.scripts/handlers.php");
                 </table>
             </div>
             <br><br>
-            <img src="material/bg2.jpg" style="width: 80%;">
-            <br><br>
-            <div class="w3-center fo5 w3-small" style="font-family: bodoni; font-style:italic;">
-                "For I have found
+            <div align=left>
+                <img src="material/flower1.png" style="width: 250px; height:300px; object-fit: cover; object-position: -100px 0; z-index:-1; position:relative;">
             </div>
-            <table class="w3-center fo5 w3-small" style="font-family: bodoni; font-style:italic; width: 80%;" align="center">
-                <tr>
-                    <td>
-                        <hr class="w3-border w3-border-gray" style="width: 100%; margin: 0 auto;">
-                    </td>
-                    <td style="width: 50%; font-size:30px; letter-spacing:2px;" class="cormorant">
-                        THE ONE
-                    </td>
-                    <td>
-                        <hr class="w3-border w3-border-gray" style="width: 100%; margin: 0 auto;">
-                    </td>
-                </tr>
-            </table>
-            <div class="w3-center fo5 w3-small" style="font-family: bodoni; font-style:italic;">
-                my soul loves."
-                <br><br>
-                (Song of Solomon 3:4)
-            </div>
-            <br><br>
-
-            <img src="material/bg3.png" style="width: 100%;">
-
-            <br><br>
-            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <div style="font-family: manstein; font-size:30px;" class="fo4" align=center>
-                    Agung Thenring
+            <div style="background:url(material/box1.png); background-size:100%; background-repeat:no-repeat; margin-top:-200px;">
+                <div style="height: 100px;"></div>
+                <div data-aos="fade-up">
+                    <img src="material/bg2.png" style="width: 50%;">
                 </div>
-                <div style="font-family: bodoni; font-style:italic;" class="fo5 w3-tiny" align=center>
-                    The youngest son of<br>Mr. Thenring Jokkie & Mrs. Siantje Jonathan
+                <div style="height: 30px;"></div>
+                <div style="font-family: minioni;" class="w3-small" data-aos="fade">
+                    "So they are no longer two, but
+                    <div style="font-family: claytona;" class="w3-xxlarge">
+                        One Flesh
+                    </div>
+                    Therefore what God has joined together,<br>
+                    let no one separate."<br><br>
+                    (Matthew 19 : 6)
+                </div>
+                <div style="height: 100px;"></div>
+            </div>
+            <div align=right>
+                <img src="material/flower1.png" style="width: 250px; height:350px; object-fit: cover; object-position: 100px 0; z-index:-1; position:relative; margin-top:-100px;">
+            </div>
+            <div style="background:url(material/bg3.png); background-size:100%; background-repeat:no-repeat; margin-top:-100px;">
+                <div data-aos="fade">
+                    <img src="material/logo3.png" style="width: 50%; margin-top:50px;">
+                </div>
+                <div style="height: 600px;"></div>
+            </div>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div style="font-family: cinzel; line-height:45px;" class="fo4 w3-xxxlarge" align=center>
+                    JACKY
+                    <div class="w3-xlarge">
+                        DJIWONO JIE
+                    </div>
+                </div>
+                <div style="height: 10px;"></div>
+                <div style="font-family: trajan;" class="fo3 w3-tiny" align=center>
+                    PUTRA SULUNG ANAK KETIGA DARI<br>
+                    TN. JIMMY DJIWONO JIE & NY. LANNY CHANDRA
                 </div>
             </div>
             <br>
-            <div style="font-family: manstein; font-size:30px;" class="fo4" align=center>
+            <div style="font-family: manstein; font-size:30px;" class="fo3" align=center data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 &
             </div>
             <div style="height:10px;"></div>
             <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <div style="font-family: manstein; font-size:30px;" class="fo4" align=center>
-                    Ivana Yosalie
+                <div style="font-family: cinzel; line-height:45px;" class="fo4 w3-xxxlarge" align=center>
+                    MAOUREN
+                    <div class="w3-xlarge">
+                        ANGEL SUWANDI, S. AK.
+                    </div>
                 </div>
-                <div style="font-family: bodoni; font-style:italic;" class="fo5 w3-tiny" align=center>
-                    The youngest daughter of<br>Mr. Go Dju Liong & Mrs. Loa Siaw Phing
+                <div style="height: 10px;"></div>
+                <div style="font-family: trajan;" class="fo3 w3-tiny" align=center>
+                    PUTRI TUNGGAL ANAK PERTAMA DARI<br>
+                    TN. RONNY & NY. MERIAM
                 </div>
             </div>
-
-            <div style="height: 50px;"></div>
-            <div style="background:url(material/bg4.jpg); background-size:100%; background-repeat:no-repeat;">
-                <table width="90%" align="center" style="font-family:bodoni;" class="fo2">
+            <div style="background:url(material/box2.png); background-size:100%; background-repeat:no-repeat;">
+                <div style="height: 100px;"></div>
+                <table width="80%" align="center" style="font-family:minion; background:url(material/bg4.png); background-size:100%; background-repeat:no-repeat;" class="fo2">
                     <tr>
-                        <td align="right">
-                            <div style="height: 100px;"></div>
+                        <td align="center" style="padding-left: 5px; padding-right:5px;">
+                            <div style="height: 20px;"></div>
+                            <div data-aos="fade-up">
+                                <img src="../.images/shuangxi1.png" style="width: 20%;"><br>
+                            </div>
+                            <div style="height: 20px;"></div>
                             <!--
                             <div data-aos="fade-up" class="w3-small">
                                  By the grace and blessings of the Lord,<br>
                             we cordially invite you
-                                Oleh kasih dan anugerah Tuhan, perkenankan kami<br>
-                                mengundang Bapak/Ibu/Saudara(i) untuk menghadiri<br>
-                                resepsi pernikahan putra - putri kami tercinta
-                            </div>
-                            <br>
                             -->
-                            <div data-aos="fade-up" style="font-family: trajan; letter-spacing: 3px;">
-                                <img src="../.images/rings.png" style="width: 20%;">
-                                <div style="height: 10px;"></div>
-                                HOLY MATRIMONY
-                                <br>
-                                <span class="w3-small">12.30 WITA</span>
+                            <div data-aos="fade-up" class="w3-tiny">
+                                Oleh kasih dan karunia Tuhan,<br>
+                                Ia telah mempertemukan & mempersatukan<br>
+                                putra - putri kami dalam ikatan pernikahan yang kudus
                             </div>
-                            <div data-aos="fade-up" class="w3-small cormorant">
-                                <b>RAWALANGI CHAPEL - THE RINRA HOTEL</b><br>
-                                <font style="font-family:bodoni; font-style:italic; letter-spacing: 1px;">
-                                    Jl. Metro Tanjung Bunga No. 2<br>
+                            <br>
+                            <div data-aos="fade-up" style="letter-spacing: 2px; line-height:15px;">
+                                PEMBERKATAN NIKAH
+                                <br>
+                                <font class="w3-tiny">SABTU, 09 AGUSTUS 2025<br>Pukul 12.00 WITA</font>
+                            </div>
+                            <div data-aos="fade-up">
+                                <img src="../.images/church.png" style="width: 20%; padding-top:10px; padding-bottom:10px;">
+                            </div>
+                            <div data-aos="fade-up" class="w3-small" style="letter-spacing: 2px; line-height:15px;">
+                                GEREJA KATOLIK KRISTUS RAJA<br>
+                                <font style="font-style:italic; letter-spacing: 1px;">
+                                    Jl. Andalas No. 61<br>
                                     Makassar
                                 </font>
                             </div>
-                            <br>
                             <div data-aos="fade-up">
                                 <!-- <button onClick="window.open('https://maps.app.goo.gl/BvZEfxKT8dpCYuEv7');" style="border-radius:20px;" class="w3-white"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Lihat Lokasi</i></button> -->
-                                <a href="https://maps.app.goo.gl/dd4JJFA4f66UvmgJ9" target="_blank">
+                                <a href="https://maps.app.goo.gl/pYwssFH8QoqheZNE7" target="_blank">
                                     <img src="material/location.png" style="width: 120px;">
                                 </a>
                             </div>
-                            <div style="height: 20px;"></div>
-                            <div style="width:35%" align=right data-aos="fade-up">
-                                <hr class="w3-border w3-border-white" style="width: 100%; margin: 0 auto;">
-                            </div>
-                            <div style="height: 20px;"></div>
-                            <div data-aos="fade-up" style="font-family: trajan; letter-spacing: 3px;">
-                                <img src="../.images/rings.png" style="width: 20%;">
-                                <div style="height: 10px;"></div>
-                                RECEPTION
+                            <div style="height: 40px;"></div>
+                            <div data-aos="fade-up" style="letter-spacing: 2px; line-height:15px;">
+                                RESEPSI PERNIKAHAN
                                 <br>
-                                <span class="w3-small">18.30 WITA</span>
+                                <font class="w3-tiny">SABTU, 09 AGUSTUS 2025<br>Pukul 18.30 WITA</font>
                             </div>
-                            <div data-aos="fade-up" class="w3-small cormorant">
-                                <b>THE UPPERHILLS CONVENTION HALL<br>WEST HALL</b><br>
-                                <font style="font-family:bodoni; font-style:italic; letter-spacing: 1px;">
-                                    Jl. Metro Tanjung Bunga No. 995<br>
+                            <div data-aos="fade-up">
+                                <img src="../.images/reception.png" style="width: 20%; padding-top:10px; padding-bottom:10px;">
+                            </div>
+                            <div data-aos="fade-up" class="w3-small" style="letter-spacing: 2px; line-height:15px;">
+                                REST. BAMBUDEN III LT. 2<br>
+                                <font style="font-style:italic; letter-spacing: 1px;">
+                                    Jl. Gunung Latimojong No. 62<br>
                                     Makassar
                                 </font>
                             </div>
-                            <br>
                             <div data-aos="fade-up">
                                 <!-- <button onClick="window.open('https://maps.app.goo.gl/BvZEfxKT8dpCYuEv7');" style="border-radius:20px;" class="w3-white"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i>Lihat Lokasi</i></button> -->
-                                <a href="https://maps.app.goo.gl/pb4g4cBqWLMMccpn8" target="_blank">
+                                <a href="https://maps.app.goo.gl/1cBExW12UydFtdBq7" target="_blank">
                                     <img src="material/location.png" style="width: 120px;">
                                 </a>
                             </div>
-                            <div style="height: 10px;"></div>
+                            <div style="height: 50px;"></div>
                         </td>
                     </tr>
                 </table>
-                <div style="height: 100px;"></div>
+                <div style="height: 50px;"></div>
             </div>
 
-            <table class="w3-medium" style="background:url(material/box1.png); background-size:100%; background-repeat: no-repeat; font-family:bodoni;" align="center" width="100%" id="rsvp">
+            <div style="background:url(material/bgcountdown.png); background-size:100%; background-repeat: no-repeat;">
+                <div class="w3-center">
+                    <table width="100%" align="center">
+                        <tr>
+                            <td align="center" class="fo2">
+                                <div style="height: 430px;"></div>
+                                <div data-aos="slide-right">
+                                    <img src="material/logo4.png" style="width:60%; padding-bottom:20px;">
+                                </div>
+                                <div data-aos="slide-right">
+                                    <font class="w3-large fo2" style="font-family:cinzel;">
+                                        <b>
+                                            MENUJU HARI H
+                                            <!-- COUNTING DOWN TO THE BIG DAY -->
+                                        </b>
+                                    </font>
+                                </div>
+                                <!-- Display the countdown timer in an element -->
+                                <div data-aos="slide-right">
+                                    <b>
+                                        <font id="demo" style="font-family:cinzel;" class="w3-xxxlarge fo2"></font>
+                                    </b>
+                                </div>
+                                <div data-aos="slide-right" style="font-family:cinzel;" class="w3-small fo2">
+
+                                    <!-- Day(s) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                Hour(s) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                Minute(s) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                Second(s) -->
+
+                                    HARI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    JAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    MENIT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    DETIK
+                                </div>
+                                <div style="height: 100px;"></div>
+                                <script>
+                                    // Set the date we're counting down to
+                                    var countDownDate = new Date("August 9, 2025 12:30:00").getTime();
+
+                                    // Update the count down every 1 second
+                                    var x = setInterval(function() {
+
+                                        // Get today's date and time
+                                        var now = new Date().getTime();
+
+                                        // Find the distance between now and the count down date
+                                        var distance = countDownDate - now;
+
+                                        // Time calculations for days, hours, minutes and seconds
+                                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                        // Display the result in the element with id="demo"
+                                        //document.getElementById("demo").innerHTML = days + " Day(s) &nbsp;&nbsp;" + hours + " Hour(s) <br>"
+                                        //+ minutes + " Minute(s) &nbsp;&nbsp;" + seconds + " Second(s)";
+                                        document.getElementById("demo").innerHTML = days + " : " + hours + " : " +
+                                            minutes + " : " + seconds;
+
+                                        // If the count down is finished, write some text
+                                        if (distance < 0) {
+                                            clearInterval(x);
+                                            document.getElementById("demo").innerHTML = "SELESAI";
+                                        }
+                                    }, 1000);
+                                </script>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+            </div>
+            <div align=left>
+                <img src="material/flower1.png" style="width: 250px; height:300px; object-fit: cover; object-position: -100px 0; z-index:-1; position:relative; margin-top:-100px;">
+            </div>
+            <table class="w3-medium" style="background:url(material/box1.png); background-size:100%; background-repeat: no-repeat; margin-top:-250px;" align="center" width="100%" id="rsvp">
                 <tr>
                     <td align="center">
                         <div style="height: 140px;"></div>
                         <div data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom">
-                            <font class="w3-xxxlarge fo5" style="font-family: trajan;">R S V P</font>
+                            <font class="w3-xxlarge fo5" style="font-family: greatvibes;">R S V P</font>
                         </div>
-                        <div style="height: 10px;"></div>
-                        <div data-aos="fade-up" style="border-left: 2px solid <?= $warna5 ?>; height: 50px; margin-left: 50%;"></div>
                         <div style="height: 30px;"></div>
-                        <div data-aos="fade-up" style="font-family: bodoni; font-style:italic;" class="w3-small fo5">
-                            <i>
-                                <!-- Bantu kami mempersiapkan jamuan yang<br>
-                                hangat untuk Anda semua dengan mengirimkan<br>
-                                konfirmasi kehadiran melalui form berikut ini: -->
-                                Help us prepare the best to host you<br>
+                        <div data-aos="fade-up" style="font-family: minion;" class="w3-small fo5">
+                            Bantu kami mempersiapkan jamuan yang<br>
+                            hangat untuk Anda semua dengan mengirimkan<br>
+                            konfirmasi kehadiran melalui form berikut ini:
+                            <!-- Help us prepare the best to host you<br>
                                 on our wedding day by filling out<br>
-                                the information below.
-                            </i>
+                                the information below.-->
                         </div>
                         <div style="height: 30px;"></div>
                         <div data-aos="fade-up">
@@ -229,6 +314,7 @@ include("../.scripts/handlers.php");
                                 <div style="line-height:38px;">
                                     <input class="w3-small fo5" type="text" name="nama" value="<?php echo $to; ?>" style="width:50%; border-radius:10px; height:30px;" required>
                                     <br>
+                                    <!--
                                     <select class="w3-small fo5" style="width:50%; border-radius:10px; height:30px;" name="guest">
                                         <option value="0">Not attending</option>
                                         <option value="1" <?php if ($guest == 1) echo "selected"; ?>>1 guest</option>
@@ -244,7 +330,8 @@ include("../.scripts/handlers.php");
                                         <option value="Pria">Groom's side</option>
                                         <option value="Wanita">Bride's side</option>
                                     </select>
-                                    <!-- <select class="w3-small" style="width:50%; border-radius:10px; height:30px; border-color:gold;" name="guest">
+                                    -->
+                                    <select class="w3-small" style="width:50%; border-radius:10px; height:30px; border-color:gold;" name="guest">
                                         <option value="0">Tidak hadir</option>
                                         <option value="1" <?php if ($guest == 1) echo "selected"; ?>>1 tamu</option>
                                         <option value="2" <?php if ($guest == 2) echo "selected";
@@ -258,31 +345,65 @@ include("../.scripts/handlers.php");
                                     <select class="w3-small" name="pihak" style="border-radius:10px; width:50%; height:30px; border-color:gold;">
                                         <option value="Pria">Pihak mempelai pria</option>
                                         <option value="Wanita">Pihak mempelai wanita</option>
-                                    </select> -->
+                                    </select>
                                     <br>
                                     <!-- <input class="w3-small" type="text" name="whatsapp" style="width:50%; border-radius:10px; height:30px; border-color:gold;" placeholder="WhatsApp"> -->
-                                    <button type="submit" name="action" value="rsvp" class="bg5 fo2" style="width: 50%;;">Submit</button>
+                                    <button type="submit" name="action" value="rsvp" class="bg5 fo2" style="width: 50%;;">Kirim</button>
                                 </div>
                             </form>
                         </div>
-                        <div style="height: 200px;"></div>
+                        <div style="height: 250px;"></div>
                     </td>
                 </tr>
             </table>
-
-            <div style="background:url(material/bg6.png); background-size:100%; background-repeat:no-repeat;">
-                <div style="height: 80px;"></div>
-                <div style="font-family: bodoni;">
-                    #VANtasticlovewithAGUNG
+            <div align=right>
+                <img src="material/flower1.png" style="width: 250px; height:350px; object-fit: cover; object-position: 100px 0; z-index:-1; position:relative; margin-top:-250px;">
+            </div>
+            <div style="background:url(material/bg5.png); background-size:100%; background-repeat:no-repeat; margin-top:-150px;">
+                <div style="height: 250px;"></div>
+                <div data-aos="fade-up">
+                    <img src="material/logo5.png" style="width:70%;">
                 </div>
-                <div style="height: 750px;"></div>
+                <div style="height: 450px;"></div>
+            </div>
+
+            <div style="font-family:greatvibes;" class="w3-xxlarge fo5" data-aos="fade-up">
+                Photo Gallery
+            </div>
+            <div style="height: 60px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery1.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery2.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery3.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery4.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery5.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+            <div data-aos="fade-up">
+                <img src="material/gallery6.png" style="width: 80%;">
+            </div>
+            <div style="height: 30px;"></div>
+
+            <div class="w3-medium" style="background:url(material/box1.png); background-size:100%; background-repeat: no-repeat;" align="center" width="100%" id="rsvp">
+                <div style="height: 200px;"></div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <div style="font-family:cormorant; line-height:32px; letter-spacing:2px;" class="w3-xxlarge fo5">
-                        WRITE<br>
-                        <span style="font-family: arolse;" class="w3-xxxlarge">your</span><br>
-                        <span class="w3-xlarge">PRAYER & BLESSING</span>
+                    <div style="font-family:greatvibes; line-height:32px; letter-spacing:2px;" class="w3-xxlarge fo5">
+                        Tuliskan<br>
+                        <span class="w3-xlarge">Pesan & Doa Anda</span>
                     </div>
                 </div>
                 <br>
@@ -291,22 +412,27 @@ include("../.scripts/handlers.php");
                     <div data-aos="fade-up">
                         <table align="center" style="font-family:minion;" width="60%">
                             <tr>
-                                <td><input class="w3-small fo5" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%;;" placeholder="Name"></td>
+                                <td><input class="w3-small fo5" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%;;" placeholder="Nama"></td>
                             </tr>
                             <tr>
                                 <td>
-                                    <textarea placeholder="Prayer & Blessing for Agung & Ivana" class="w3-small fo5" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%;" rows="3"></textarea>
+                                    <textarea placeholder="Pesan & doa untuk Jacky & Maouren" class="w3-small fo5" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%;" rows="3"></textarea>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center">
-                                    <button class="bg5 fo2" type="submit" style="border-radius:5px; font-family:minion; width:100%;;">Submit</button>
+                                    <button class="bg5 fo2" type="submit" style="border-radius:5px; font-family:minion; width:100%;;">Kirim</button>
                                 </td>
                             </tr>
                         </table>
                     </div>
                 </form>
                 <div style="height: 190px;"></div>
+            </div>
+            <div style="height: 10px;"></div>
+            <div style="font-style: italic; font-family:minion;" data-aos="fade">
+                Terima kasih atas ucapan, doa dan kesediaan Anda<br>
+                untuk hadir di hari pernikahan kami
             </div>
             <div style="height: 10px;"></div>
             <div align="center" style="height:300px;" id="gb">
@@ -350,26 +476,16 @@ include("../.scripts/handlers.php");
                 <br>
             </div>
 
-            <img src="material/gallery1.jpg" style="width: 100%;">
-            <div style="font-family:arolse; margin-top:-120px;" class="w3-jumbo fo2">
-                Photo Gallery
+            <img src="material/bg6.png" style="width: 100%;">
+            <div style="font-style: italic; font-family:minion; margin-top:-30px;" data-aos="slide-left">
+                Sampai jumpa di hari bahagia kami!
             </div>
-            <div style="height: 60px;"></div>
-            <img src="material/gallery2.png" style="width: 100%;">
-            <div style="height: 30px;"></div>
-            <img src="material/gallery3.png" style="width: 90%;">
-            <img src="material/bg7.jpg" style="width: 100%;">
-            <img src="material/bg9.png" style="width: 100%;">
-            <div style="font-family:arolse; margin-top:-150px; line-height:30px;" class="w3-xxlarge fo2">
-                See you<br>
-                on our wedding day!
-            </div>
-            <div style="height: 100px;"></div>
-            <div style="font-family:arolse;" class="w3-xlarge fo5">
+            <div style="height: 150px;"></div>
+            <div style="font-family:arolse;" class="w3-xlarge fo5" data-aos="fade">
                 made with love by<br>
-                <img src="../.images/logolovebirdsdark2.png" style="width: 100px;">
+                <img src="../.images/logolovebirdsdark2.png" style="width: 120px;">
             </div>
-            <div style="height: 10px;"></div>
+            <div style="height: 150px;"></div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
         </script>
