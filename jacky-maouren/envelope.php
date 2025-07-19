@@ -48,7 +48,7 @@
     </div>
         -->
         <img src="material/logo1.png" style="width:75%">
-        <div style="height: 270px;"></div>
+        <div style="height: 200px;"></div>
         <div align="center" data-aos="fade">
             <p style="font-family:'<?php echo $efont; ?>'; letter-spacing:1px; line-height:15px;">
                 Invitation To:<br>
