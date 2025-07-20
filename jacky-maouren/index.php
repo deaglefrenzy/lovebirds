@@ -77,7 +77,7 @@ include("../.scripts/handlers.php");
                             </div>
                         </td>
                         <td align="left" class="fo3">
-                            Westlife<br><i class="fa-solid fa-music"> I Wanna Grow Old ith You</i>
+                            Mateo Oxley feat. Beth<i class="fa-solid fa-music"> Come What May</i>
                         </td>
                     </tr>
                 </table>
