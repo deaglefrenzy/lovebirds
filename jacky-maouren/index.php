@@ -77,7 +77,7 @@ include("../.scripts/handlers.php");
                             </div>
                         </td>
                         <td align="left" class="fo3">
-                            Mateo Oxley feat. Beth<i class="fa-solid fa-music"> Come What May</i>
+                            Mateo Oxley feat. Beth<br><i class="fa-solid fa-music"> Come What May</i>
                         </td>
                     </tr>
                 </table>
