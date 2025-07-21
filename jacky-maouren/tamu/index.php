@@ -23,14 +23,21 @@
     <br>
     <?php
     include('../../.scripts/function.php');
+
+    $useQR = false;
+
     $nama = @$_POST['nama'];
     $guest = @$_POST['guest'];
     $meja = @$_POST['meja'];
-    $data = @$_POST['data'];
-    $data = trim($data);
+    if ($useQR) {
+        $data = @$_POST['data'];
+        $data = trim($data);
+    }
     $nama = str_replace(" ", "+", $nama);
-    if (!empty($nama)) $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama&guest=$guest&meja=$meja&qr=$data";
-    else $linknya = "";
+    if (!empty($nama)) {
+        $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama&guest=$guest&meja=$meja";
+        if ($useQR) $linknya .= "&qr=$data";
+    } else $linknya = "";
 
     $PNG_TEMP_DIR = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'temp' . DIRECTORY_SEPARATOR;
     $PNG_WEB_DIR = 'temp/';
@@ -87,17 +94,21 @@
                 <tr>
                     <td style="height:10px"></td>
                 </tr>
-                <tr>
-                    <td align="left">
-                        <font style="font-family:Trajan;" class="fo2">KODE NOMOR QR</font>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input class="w3-large" name="data" type="text" style="border:0; border-radius:5px; width:100%;"></td>
-                </tr>
-                <tr>
-                    <td style="height:10px"></td>
-                </tr>
+                <?php
+                if ($useQR) {
+                ?>
+                    <tr>
+                        <td align="left">
+                            <font style="font-family:Trajan;" class="fo2">KODE NOMOR QR</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input class="w3-large" name="data" type="text" style="border:0; border-radius:5px; width:100%;"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:10px"></td>
+                    </tr>
+                <?php } ?>
                 <tr>
                     <td>
                         <button type="submit" class="w3-large" style="border:0; border-radius:5px; width:100%;">GENERATE LINK</button>
