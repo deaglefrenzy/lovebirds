@@ -22,7 +22,7 @@ include("../" . $folder . "/profile.php");
     <?php include("../.scripts/styles.php"); ?>
 </head>
 
-<body class="bg3">
+<body class="w3-brown">
     <br>
     <?php
     include('../.scripts/function.php');
@@ -37,7 +37,7 @@ include("../" . $folder . "/profile.php");
     }
     $nama = str_replace(" ", "+", $nama);
     if (!empty($nama)) {
-        $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama&guest=$guest&meja=$meja";
+        $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama";
         if ($useQR) $linknya .= "&qr=$data";
     } else $linknya = "";
 
@@ -69,7 +69,7 @@ include("../" . $folder . "/profile.php");
                 <tr>
                     <td style="height:10px"></td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td align="left">
                         <font style="font-family:trajan;" class="fo2">JUMLAH GUEST</font>
                     </td>
@@ -94,7 +94,7 @@ include("../" . $folder . "/profile.php");
                 </tr>
                 <tr>
                     <td><input class="w3-large" name="meja" type="text" style="border:0; border-radius:5px; width:100%;"></td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td style="height:10px"></td>
                 </tr>

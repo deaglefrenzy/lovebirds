@@ -44,12 +44,9 @@ $useWhatsApp = false;
                             <select class="w3-small" style="width:50%; border-radius:10px; height:30px; border-color:gold;" name="guest">
                                 <option value="0"><?= $rsvpNotAttending ?></option>
                                 <option value="1" <?php if ($guest == 1) echo "selected"; ?>>1 <?= $rsvpGuest ?></option>
-                                <option value="2" <?php if ($guest == 2) echo "selected";
-                                                    if ($guest < 2) echo "disabled"; ?>>2 <?= $rsvpGuests ?></option>
-                                <option value="3" <?php if ($guest == 3) echo "selected";
-                                                    if ($guest < 3) echo "disabled"; ?>>3 <?= $rsvpGuests ?></option>
-                                <option value="4" <?php if ($guest == 4) echo "selected";
-                                                    if ($guest < 4) echo "disabled"; ?>>4 <?= $rsvpGuests ?></option>
+                                <option value="2" <?php if ($guest == 2) echo "selected"; ?>>2 <?= $rsvpGuests ?></option>
+                                <option value="3" <?php if ($guest == 3) echo "selected"; ?>>3 <?= $rsvpGuests ?></option>
+                                <option value="4" <?php if ($guest == 4) echo "selected"; ?>>4 <?= $rsvpGuests ?></option>
                             </select>
 
                             <select class="w3-small" name="pihak" style="border-radius:10px; width:50%; height:30px; border-color:gold;">

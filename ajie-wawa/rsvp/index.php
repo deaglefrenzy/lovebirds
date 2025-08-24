@@ -22,7 +22,7 @@ include("../" . $folder . "/profile.php");
   <?php include("../.scripts/styles.php"); ?>
 </head>
 
-<body class="bg3 fo2">
+<body class="w3-brown">
   <br>
   <?php
   include('../.scripts/function.php');
@@ -46,7 +46,7 @@ include("../" . $folder . "/profile.php");
                   <td align="left">
                     <font class="w3-large fo3" style="font-family:bodoni;">
                       <i class="fa-solid fa-user-large"></i> <?php echo $qq['nama']; ?> : <?php echo $gu; ?><br />
-                      <i class="fa-brands fa-whatsapp"></i> <?php echo $qq['whatsapp']; ?><br>
+                      <!-- <i class="fa-brands fa-whatsapp"></i> <?php echo $qq['whatsapp']; ?><br> -->
                       <i class="fa-solid fa-venus-mars"></i> Pihak <?php echo $qq['pihak']; ?>
                     </font>
                   </td>
