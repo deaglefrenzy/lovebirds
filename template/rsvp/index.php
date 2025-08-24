@@ -1,31 +1,31 @@
 <?php
 $folder = @$_GET['p'];
-include("../" . $folder . "/profile.php");
+include("../profile.php");
 ?>
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>DATA RSVP</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="../.favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../.favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../.favicon/favicon-16x16.png">
-  <link rel="manifest" href="../.favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../.favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../.favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../.favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../.favicon/site.webmanifest">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="../.scripts/fonts.css" />
-  <link rel="stylesheet" href="../.scripts/styles.css" />
-  <?php include("../.scripts/styles.php"); ?>
+  <link rel="stylesheet" href="../../.scripts/fonts.css" />
+  <link rel="stylesheet" href="../../.scripts/styles.css" />
+  <?php include("../../.scripts/styles.php"); ?>
 </head>
 
-<body class="bg3 fo2">
+<body class="w3-brown">
   <br>
   <?php
-  include('../.scripts/function.php');
+  include('../../.scripts/function.php');
   ?>
   <h1 align="center" style="font-family:trajan;" class="fo2">DATA RSVP</h1>
   <table width="100%">
