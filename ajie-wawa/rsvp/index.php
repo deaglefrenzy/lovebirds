@@ -34,9 +34,9 @@ include("../" . $folder . "/profile.php");
         <br>
         <div class="w3-container w3-center">
           <?php
-          $query = "SELECT * FROM " . $tabledb . "2 ORDER BY nama DESC";
-          echo $query;
-          $q = mysqli_query($conn, $query);
+          $query = "SELECT * FROM " . $tabledb . "2 ORDER BY id DESC";
+          //echo $query;
+          $q = mysqli_query($conn, $query) or die(mysqli_error($conn));
           while ($qq = mysqli_fetch_array($q)) {
             if ($qq['guest'] == 0) $gu = "Tidak hadir";
             else $gu = $qq['guest'] . " Tamu";
