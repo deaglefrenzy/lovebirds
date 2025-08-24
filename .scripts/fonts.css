@@ -147,3 +147,132 @@
 	font-family: greatvibes;
 	src: url('../.fonts/GreatVibes-Regular.ttf');
 }
+
+@font-face {
+	font-family: garamond;
+	src: url('../.fonts/AGaramond-Regular.otf');
+}
+
+.minion {
+	font-family: 'minion', serif;
+}
+
+.minioni {
+	font-family: 'minioni', serif;
+}
+
+.trajanb {
+	font-family: 'trajanb', serif;
+}
+
+.trajan {
+	font-family: 'trajan', serif;
+}
+
+.cinzel {
+	font-family: 'cinzel', serif;
+}
+
+.butlerreg {
+	font-family: 'butlerreg', serif;
+}
+
+.butlerbold {
+	font-family: 'butlerbold', serif;
+}
+
+.brit {
+	font-family: 'brit', serif;
+}
+
+.tbc {
+	font-family: 'tbc', sans-serif;
+}
+
+.tbi {
+	font-family: 'tbi', sans-serif;
+}
+
+.tit {
+	font-family: 'tit', sans-serif;
+}
+
+.blacksword {
+	font-family: 'blacksword', cursive;
+}
+
+.aire {
+	font-family: 'aire', serif;
+}
+
+.bodoni {
+	font-family: 'bodoni', serif;
+}
+
+.florilane {
+	font-family: 'florilane', serif;
+}
+
+.foglihten {
+	font-family: 'foglihten', serif;
+}
+
+.qaskin {
+	font-family: 'qaskin', serif;
+}
+
+.aston {
+	font-family: 'aston', cursive;
+}
+
+.helvetica {
+	font-family: 'helvetica', sans-serif;
+}
+
+.goldenhill {
+	font-family: 'goldenhill', serif;
+}
+
+.highspirited {
+	font-family: 'highspirited', cursive;
+}
+
+.permapetit {
+	font-family: 'permapetit', serif;
+}
+
+.aboreto {
+	font-family: 'aboreto', serif;
+}
+
+.afterglow {
+	font-family: 'afterglow', serif;
+}
+
+.claytona {
+	font-family: 'claytona', serif;
+}
+
+.miltontwo {
+	font-family: 'miltontwo', serif;
+}
+
+.miltontwob {
+	font-family: 'miltontwob', serif;
+}
+
+.manstein {
+	font-family: 'manstein', serif;
+}
+
+.arolse {
+	font-family: 'arolse', cursive;
+}
+
+.greatvibes {
+	font-family: 'greatvibes', cursive;
+}
+
+.garamond {
+	font-family: 'garamond', serif;
+}
