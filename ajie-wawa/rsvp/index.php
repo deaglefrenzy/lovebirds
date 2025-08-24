@@ -37,6 +37,7 @@ include("../" . $folder . "/profile.php");
           $query = "SELECT * FROM " . $tabledb . "2 ORDER BY id DESC";
           //echo $query;
           $q = mysqli_query($conn, $query) or die(mysqli_error($conn));
+          echo mysqli_num_rows($q);
           while ($qq = mysqli_fetch_array($q)) {
             if ($qq['guest'] == 0) $gu = "Tidak hadir";
             else $gu = $qq['guest'] . " Tamu";
