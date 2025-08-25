@@ -6,9 +6,9 @@
     kami bermaksud dengan hormat mengundang Bapak/Ibu/Saudara(i)<br>
     untuk menghadiri Resepsi Pernikahan Putra-Putri kami
 </div>
-<div data-aos="fade">
+<div data-aos="slide-right">
     <img src="material/groom.png" style="width: 100%;">
 </div>
-<div data-aos="fade">
+<div data-aos="slide-left">
     <img src="material/bride.png" style="width: 100%;">
 </div>

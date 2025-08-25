@@ -78,13 +78,6 @@ include("../.scripts/handlers.php");
             <?php include("partials/gallery.php"); ?>
             <?php include("partials/guestbook.php"); ?>
             <div style="height: 100px;"></div>
-            <div style="font-family:minion;" data-aos="slide-left">
-                Tanpa mengurangi rasa hormat, bagi Anda<br>
-                yang ingin memberikan tanda kasih untuk kami<br>
-                dapat melalui:<br><br><br>
-                BCA
-            </div>
-            <div style="height: 100px;"></div>
             <img src="material/bg1.png" style="width: 100%;">
             <div style="margin-top: -200px; line-height:50px;" class="highspirited w3-xxlarge fo1">
                 <div style="margin-right: 100px;">
