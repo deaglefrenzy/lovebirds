@@ -21,11 +21,11 @@ $matrixPointSize = 4;
 $efont = "minion";
 
 if (!$useEnglish) {
-    $kepadayth = "Kepada Yth: Bapak / Ibu / Saudara(i)";
+    $kepadayth = "Kepada Yth:<br>Bapak / Ibu / Saudara(i)";
     $tab = "Meja";
     $tam = "Tamu";
 } else {
-    $kepadayth = "Mr/Mrs/Ms/Mr & Mrs";
+    $kepadayth = "Invitation To:<br>Mr/Mrs/Ms/Mr & Mrs";
     $tab = "Table";
     $tam = "Guest(s)";
 }
@@ -50,7 +50,6 @@ if (!$useEnglish) {
     <div style="height: 200px;"></div>
     <div align="center" data-aos="fade">
         <p style="font-family:'<?php echo $efont; ?>'; letter-spacing:1px; line-height:15px;">
-            Invitation To:<br>
             <?= $kepadayth ?>
             <br><br>
             <font class="w3-xlarge" style="font-family:'<?php echo $efont; ?>'; letter-spacing:1px; line-height:20px;">

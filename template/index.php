@@ -26,15 +26,6 @@
     <link rel="stylesheet" href="../.scripts/styles.css" />
 
     <?php include("../.scripts/styles.php"); ?>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
-    <style>
-        .cormorant {
-            font-family: "Cormorant", serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-        }
-    </style>
 </head>
 
 <?php
