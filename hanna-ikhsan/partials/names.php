@@ -42,7 +42,7 @@
         </div>
     </div>
     <div style="height: 10px;"></div>
-    <div class="fo1 minioni" align=center>
+    <div class="fo3 minioni" align=center>
         Putra bungsu dari<br>
         (Alm.) Bpk. Andi Mappadjantji Dg. Radja<br>
         & Ibu Hj. Maryam Mangga
