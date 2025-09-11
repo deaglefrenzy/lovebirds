@@ -14,17 +14,17 @@ if ($useEnglish) {
 }
 ?>
 
-<div style="background:url(material/bgcountdown.png); background-size:100%; background-repeat: no-repeat;">
+<div style="background:url(material/bg2.png); background-size:100%; background-repeat: no-repeat;">
     <div class="w3-center">
         <table width="100%" align="center">
             <tr>
                 <td align="center" class="fo2">
-                    <div style="height: 430px;"></div>
+                    <div style="height: 190px;"></div>
                     <div data-aos="slide-right">
-                        <img src="material/logo4.png" style="width:60%; padding-bottom:20px;">
+                        <img src="material/logo3.png" style="width:50%; padding-bottom:20px;">
                     </div>
                     <div data-aos="slide-right">
-                        <font class="w3-large fo2" style="font-family:cinzel;">
+                        <font class="fo4" style="font-family:cinzel;">
                             <b>
                                 <?= $menuju ?>
                             </b>
@@ -33,16 +33,16 @@ if ($useEnglish) {
                     <!-- Display the countdown timer in an element -->
                     <div data-aos="slide-right">
                         <b>
-                            <font id="demo" style="font-family:cinzel;" class="w3-xxxlarge fo2"></font>
+                            <font id="demo" style="font-family:cinzel;" class="w3-xxxlarge fo4"></font>
                         </b>
                     </div>
-                    <div data-aos="slide-right" style="font-family:cinzel;" class="w3-small fo2">
+                    <div data-aos="slide-right" style="font-family:cinzel;" class="w3-small fo4">
                         <?= $satuan ?>
                     </div>
-                    <div style="height: 100px;"></div>
+                    <div style="height: 300px;"></div>
                     <script>
                         // Set the date we're counting down to
-                        var countDownDate = new Date("August 9, 2025 12:30:00").getTime();
+                        var countDownDate = new Date("September 26, 2025 19:00:00").getTime();
 
                         // Update the count down every 1 second
                         var x = setInterval(function() {

@@ -22,50 +22,64 @@ if ($useEnglish) {
 }
 $useWhatsApp = false;
 ?>
-<table class="w3-medium" style="background:url(material/box1.png); background-size:100%; background-repeat: no-repeat; margin-top:-250px;" align="center" width="100%" id="rsvp">
+<table class="w3-medium" style="margin-top:-120px; background:url(material/box1.png); background-size:100%; background-repeat: no-repeat;" align="center" width="90%" id="rsvp">
     <tr>
         <td align="center">
-            <div style="height: 140px;"></div>
+            <div style="height: 70px;"></div>
+            <div data-aos="fade">
+                <img src="material/flower5.png" style="width:30%;">
+            </div>
+            <div style="height: 10px;"></div>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
-                <font class="w3-xxlarge fo5" style="font-family: greatvibes;">R S V P</font>
+                <font class="w3-xxlarge fo2" style="font-family: edwardian;">R S V P</font>
             </div>
-            <div style="height: 30px;"></div>
-            <div data-aos="fade-up" style="font-family: minion;" class="w3-small fo5">
+            <div style="height: 10px;"></div>
+            <div data-aos="fade-up" style="font-family: minioni; line-height:25px;" class="w3-small fo2">
                 <?= $rsvpQuote ?>
             </div>
-            <div style="height: 30px;"></div>
+            <div style="height: 20px;"></div>
             <div data-aos="fade-up">
                 <form action="#myForm1" method="post" onsubmit="return confirm('<?= $rsvpSend ?> RSVP?');" id="myForm1">
-                    <div style="line-height:38px;">
-                        <input class="w3-small fo5" type="text" name="nama" value="<?php echo $to; ?>" style="width:50%; border-radius:10px; height:30px;" required>
-                        <br>
-                        <select class="w3-small" style="width:50%; border-radius:10px; height:30px; border-color:gold;" name="guest">
-                            <option value="0"><?= $rsvpNotAttending ?></option>
-                            <option value="1" <?php if ($guest == 1) echo "selected"; ?>>1 <?= $rsvpGuest ?></option>
-                            <option value="2" <?php if ($guest == 2) echo "selected";
-                                                if ($guest < 2) echo "disabled"; ?>>2 <?= $rsvpGuests ?></option>
-                            <option value="3" <?php if ($guest == 3) echo "selected";
-                                                if ($guest < 3) echo "disabled"; ?>>3 <?= $rsvpGuests ?></option>
-                            <option value="4" <?php if ($guest == 4) echo "selected";
-                                                if ($guest < 4) echo "disabled"; ?>>4 <?= $rsvpGuests ?></option>
-                        </select>
-
-                        <select class="w3-small" name="pihak" style="border-radius:10px; width:50%; height:30px; border-color:gold;">
-                            <option value="Pria"><?= $rsvpGroom ?></option>
-                            <option value="Wanita"><?= $rsvpBride ?></option>
-                        </select>
-                        <br>
-                        <?php
-                        if ($useWhatsApp) {
-                        ?>
-                            <input class="w3-small" type="text" name="whatsapp" style="width:50%; border-radius:10px; height:30px; border-color:gold;" placeholder="WhatsApp">
-                        <?php
-                        }
-                        ?>
-                        <button type="submit" name="action" value="rsvp" class="bg5 fo2" style="width: 50%;;"><?= $rsvpSend ?></button>
-                    </div>
-                </form>
+                    <table align="center" style="font-family:minion;" width="60%">
+                        <tr>
+                            <td>
+                                <input class="w3-small fo1 bg2" type="text" name="nama" value="<?php echo $to; ?>" style="width:100%; border-radius:10px; height:30px; border-color:white;" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="w3-small fo1 bg2" style="width:100%; border-radius:10px; height:30px; border-color:white;" name="guest">
+                                    <option value="0"><?= $rsvpNotAttending ?></option>
+                                    <option value="1" <?php if ($guest == 1) echo "selected"; ?>>1 <?= $rsvpGuest ?></option>
+                                    <option value="2" <?php if ($guest == 2) echo "selected";
+                                                        if ($guest < 2) echo "disabled"; ?>>2 <?= $rsvpGuests ?></option>
+                                    <option value="3" <?php if ($guest == 3) echo "selected";
+                                                        if ($guest < 3) echo "disabled"; ?>>3 <?= $rsvpGuests ?></option>
+                                    <option value="4" <?php if ($guest == 4) echo "selected";
+                                                        if ($guest < 4) echo "disabled"; ?>>4 <?= $rsvpGuests ?></option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <?php
+                                if ($useWhatsApp) {
+                                ?>
+                                    <input class="w3-small" type="text" name="whatsapp" style="width:100%; border-radius:10px; height:30px; border-color:gold;" placeholder="WhatsApp">
+                                <?php
+                                }
+                                ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="bg2 fo1" type="submit" style="border-radius:5px; font-family:minion; width:100%; border-color:white;" value="rsvp" name="action"><?= $rsvpSend ?></button>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+            </form>
             </div>
             <div style="height: 250px;"></div>
         </td>

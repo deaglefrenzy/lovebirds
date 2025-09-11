@@ -60,34 +60,40 @@ include("../.scripts/handlers.php");
                 <img src="material/flower1.png" style="width: 250px; height:350px; object-fit: cover; object-position: 100px 0; z-index:-1; position:relative; margin-top:-500px;">
             </div>
             <?php include("partials/location.php"); ?>
-            <?php include("partials/countdown.php"); ?>
-            <div align=left>
-                <img src="material/flower1.png" style="width: 250px; height:300px; object-fit: cover; object-position: -100px 0; z-index:-1; position:relative; margin-top:-100px;">
-            </div>
-            <?php include("partials/rsvp.php"); ?>
             <div align=right>
-                <img src="material/flower1.png" style="width: 250px; height:350px; object-fit: cover; object-position: 100px 0; z-index:-1; position:relative; margin-top:-250px;">
+                <img src="material/flower3.png" style="width: 250px; height:350px; object-fit: cover; object-position: 100px 0; z-index:-1; position:relative; margin-top:-300px;">
             </div>
-
-            <div style="background:url(material/bg5.png); background-size:100%; background-repeat:no-repeat; margin-top:-150px;">
-                <div style="height: 250px;"></div>
-                <div data-aos="fade-up">
-                    <img src="material/logo5.png" style="width:70%;">
+            <?php include("partials/countdown.php"); ?>
+            <div style="background:url(material/bg1.png); background-size:100%;">
+                <div align=left>
+                    <img src="material/flower6.png" style="width: 150px; height:190px; object-fit: cover; object-position: 0px 0; position:relative;">
                 </div>
-                <div style="height: 450px;"></div>
+                <?php include("partials/rsvp.php"); ?>
+                <div align=right>
+                    <img src="material/flower7.png" style="width: 150px; height:210px; object-fit: cover; object-position: 0px 0; position:relative; margin-top:-250px;">
+                </div>
+                <div align=left>
+                    <img src="material/flower2.png" style="width: 250px; height:350px; object-fit: cover; object-position: 0 0; z-index:1; position:relative; margin-top:-200px;">
+                </div>
+                <div style="height: 50px;"></div>
+                <?php include("partials/guestbook.php"); ?>
             </div>
-
-            <?php include("partials/gallery.php"); ?>
-            <div style="height: 30px;"></div>
-            <?php include("partials/guestbook.php"); ?>
-            <?php include("partials/gift.php"); ?>
-            <img src="material/bg6.png" style="width: 100%;">
-            <div style="font-style: italic; font-family:minion; margin-top:-30px;" data-aos="slide-left">
-                Sampai jumpa di hari bahagia kami!
+            <div style="width: 100%; background: #1b346c;">
+                <div style="height: 30px;"></div>
+                <div style="background:url(material/bg3.png); background-size:100%;">
+                    <div style="height: 50px;"></div>
+                    <div style="font-family:minion;" data-aos="fade">
+                        Sampai jumpa di hari bahagia kami!
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="w3-xxlarge fo4" data-aos="fade" style="font-family:cinzel;">
+                        HANNA & IKHSAN
+                    </div>
+                    <div style="height: 50px;"></div>
+                    <?php include("partials/footer.php"); ?>
+                    <div style="height: 50px;"></div>
+                </div>
             </div>
-            <div style="height: 150px;"></div>
-            <?php include("partials/footer.php"); ?>
-            <div style="height: 150px;"></div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
         </script>
