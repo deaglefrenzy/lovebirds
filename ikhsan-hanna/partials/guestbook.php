@@ -1,7 +1,7 @@
-<table width=80% align="center" border="0" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="100%" id="rsvp">
+<table width=90% align="center" border="0" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" id="rsvp">
     <tr>
         <td>
-            <div style=" height: 220px;"></div>
+            <div style=" height: 190px;"></div>
             <div data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000">
