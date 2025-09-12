@@ -39,7 +39,7 @@ if ($useEnglish) {
                     <div data-aos="slide-right" style="font-family:cinzel;" class="w3-small fo4">
                         <?= $satuan ?>
                     </div>
-                    <div style="height: 300px;"></div>
+                    <div style="height: 270px;"></div>
                     <script>
                         // Set the date we're counting down to
                         var countDownDate = new Date("September 26, 2025 19:00:00").getTime();
