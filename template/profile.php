@@ -11,7 +11,11 @@ $warna5 = "#633A11";
 $useQR = false;
 $useEnglish = false;
 
-$judul = $groom . " & " . $bride . "'s Wedding";
+if ($useEnglish) {
+    $judul = $groom . " & " . $bride . "'s Wedding";
+} else {
+    $judul = "Pernikahan " . $groom . " & " . $bride;
+}
 $lowgroom = strtolower($groom);
 $lowbride = strtolower($bride);
 $folder = $lowgroom . "-" . $lowbride;

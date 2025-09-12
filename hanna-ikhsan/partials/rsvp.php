@@ -78,8 +78,7 @@ $useWhatsApp = false;
                             </td>
                         </tr>
                     </table>
-            </div>
-            </form>
+                </form>
             </div>
             <div style="height: 250px;"></div>
         </td>

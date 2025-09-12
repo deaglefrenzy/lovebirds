@@ -1,11 +1,24 @@
-<div class="w3-medium" style="background:url(material/box1.png); background-size:100%; background-repeat: no-repeat;" align="center" width="100%" id="rsvp">
-    <div style="height: 200px;"></div>
+<?php
+if (!$useEnglish) {
+    $gbTitle1 = "Kirimkan";
+    $gbTitle2 = "Pesan & Doa Anda";
+    $emptyMsg = "Buku tamu masih kosong.<br>Jadilah orang pertama yang mengisi!";
+    $placeholderMsg = "Pesan & doa untuk " . $groom . " & " . $bride;
+} else {
+    $gbTitle1 = "Send";
+    $fbTitle2 = "Your Wishes & Messages";
+    $emptyMsg = "The guestbook is still empty.<br>Be the first one to sign it!";
+    $placeholderMsg = "Wishes & messages " . $groom . " & " . $bride;
+}
+?>
+<div class="w3-medium" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="80%" id="rsvp">
+    <div style="height: 220px;"></div>
     <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-        <div style="font-family:greatvibes; line-height:32px; letter-spacing:2px;" class="w3-xxlarge fo5">
-            Tuliskan<br>
-            <span class="w3-xlarge">Pesan & Doa Anda</span>
+        <div style="font-family:edwardian; line-height:32px; letter-spacing:2px;" class="w3-xxxlarge fo2">
+            <?= $gbTitle1 ?><br>
+            <span class="w3-xxlarge"><?= $gbTitle2 ?></span>
         </div>
     </div>
     <br>
@@ -14,30 +27,25 @@
         <div data-aos="fade-up">
             <table align="center" style="font-family:minion;" width="60%">
                 <tr>
-                    <td><input class="w3-small fo5" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%;;" placeholder="Nama"></td>
+                    <td><input class="w3-small fo1" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" placeholder="Nama"></td>
                 </tr>
                 <tr>
                     <td>
-                        <textarea placeholder="Pesan & doa untuk Jacky & Maouren" class="w3-small fo5" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%;" rows="3"></textarea>
+                        <textarea placeholder="<?= $placeholderMsg ?>" class="w3-small fo1" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" rows="3"></textarea>
                     </td>
                 </tr>
                 <tr>
                     <td align="center">
-                        <button class="bg5 fo2" type="submit" style="border-radius:5px; font-family:minion; width:100%;;">Kirim</button>
+                        <button class="bg2 fo1" type="submit" style="border-radius:5px; font-family:minion; width:100%;  border-color:white;">Kirim</button>
                     </td>
                 </tr>
             </table>
         </div>
     </form>
-    <div style="height: 190px;"></div>
+    <div style="height: 300px;"></div>
 </div>
 <div style="height: 10px;"></div>
-<div style="font-style: italic; font-family:minion;" data-aos="fade">
-    Terima kasih atas ucapan, doa dan kesediaan Anda<br>
-    untuk hadir di hari pernikahan kami
-</div>
-<div style="height: 10px;"></div>
-<div align="center" style="height:300px;" id="gb">
+<div align="center" style="height:300px; margin-top:-80px;" id="gb">
     <br>
     <div style="height: calc(100% - 30px); overflow:scroll;">
         <div align="center" style="font-family: minion;">
@@ -50,9 +58,9 @@
                     $ucapan = str_replace("\n", "<br>", $qq['ucapan']);
             ?>
                     <div class="w3-content w3-center" style="line-height:10px;">
-                        <table class="w3-small fo5" style="font-family:aboreto; background:<?php echo $warna1; ?>; border-radius:5px; border:1px solid <?php echo $warna5; ?>; padding:5px;" width="80%" align="center">
+                        <table class="w3-small fo1" style="font-family:minion; background:<?php echo $warna2; ?>; border-radius:5px; border:1px solid <?php echo $warna1; ?>; padding:5px;" width="80%" align="center">
                             <tr>
-                                <td align="left" style="line-height:17px;">
+                                <td align="left" style="line-height:25px;">
                                     <i class="fa-solid fa-user-large"></i> <?php echo $qq['nama']; ?>
                                 </td>
                                 <td align="right"><i class="fa-solid fa-calendar-days"></i> <?php echo date("d M Y", strtotime($qq['tgl'])); ?></td>
@@ -69,7 +77,7 @@
                 }
             } else {
                 ?>
-                <font class="fo5" style="font-family: aboretoi;">Buku tamu masih kosong.<br>Jadilah orang pertama yang mengisi!</font>
+                <font class="fo1" style="font-family: aboretoi;"><?= $emptyMsg ?></font>
             <?php
             }
             ?>

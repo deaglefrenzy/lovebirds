@@ -1,6 +1,6 @@
 <?php
-$artist = "Mateo Oxley feat. Beth";
-$songTitle = "Come What May";
+$artist = "Adera";
+$songTitle = "MUARA";
 ?>
 <div align="center" class="w3-small">
     <div style="height: 20px;"></div>
