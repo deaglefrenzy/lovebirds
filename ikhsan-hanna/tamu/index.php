@@ -37,7 +37,8 @@ include("../profile.php");
     }
     $nama = str_replace(" ", "+", $nama);
     if (!empty($nama)) {
-        $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama&guest=$guest&meja=$meja";
+        $linknya = "https://lovebirdsgallery.com/$folder/?to=$nama&guest=$guest";
+        if (!empty($meja)) $linknya .= "&meja=$meja";
         if ($useQR) $linknya .= "&qr=$data";
     } else $linknya = "";
 
@@ -87,7 +88,7 @@ include("../profile.php");
                 <tr>
                     <td style="height:10px"></td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td align="left">
                         <font style="font-family:trajan;" class="fo2">NAMA MEJA</font>
                     </td>
@@ -97,7 +98,7 @@ include("../profile.php");
                 </tr>
                 <tr>
                     <td style="height:10px"></td>
-                </tr>
+                </tr> -->
                 <?php
                 if ($useQR) {
                 ?>

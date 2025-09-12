@@ -46,8 +46,8 @@ include("../profile.php");
                   <td align="left">
                     <font class="w3-large fo3" style="font-family:bodoni;">
                       <i class="fa-solid fa-user-large"></i> <?php echo $qq['nama']; ?> : <?php echo $gu; ?><br />
-                      <i class="fa-brands fa-whatsapp"></i> <?php echo $qq['whatsapp']; ?><br>
-                      <i class="fa-solid fa-venus-mars"></i> Pihak <?php echo $qq['pihak']; ?>
+                      <!-- <i class="fa-brands fa-whatsapp"></i> <?php echo $qq['whatsapp']; ?><br> -->
+                      <!-- <i class="fa-solid fa-venus-mars"></i> Pihak <?php echo $qq['pihak']; ?> -->
                     </font>
                   </td>
                 </tr>

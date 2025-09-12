@@ -1,4 +1,4 @@
-<div class="w3-medium" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="80%" id="rsvp">
+<div class="w3-medium" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="60%" id="rsvp">
     <div style="height: 220px;"></div>
     <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
