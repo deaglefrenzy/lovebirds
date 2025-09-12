@@ -1,6 +1,6 @@
 <?php
-$artist = "Adera";
-$songTitle = "MUARA";
+$artist = "Sounds of Nature";
+$songTitle = "Relaxing Music";
 ?>
 <div align="center" class="w3-small">
     <div style="height: 20px;"></div>
