@@ -1,37 +1,39 @@
-<table width=80% align="center" border="0">
-    <div class="w3-medium" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="100%" id="rsvp">
-        <div style="height: 220px;"></div>
-        <div data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
-            <div style="font-family:edwardian; line-height:32px; letter-spacing:2px;" class="w3-xxxlarge fo2">
-                Kirimkan<br>
-                <span class="w3-xxlarge">Pesan & Doa Anda</span>
+<table width=80% align="center" border="0" style="background:url(material/box3.png); background-size:100%; background-repeat: no-repeat; margin-top:-100px;" align="center" width="100%" id="rsvp">
+    <tr>
+        <td>
+            <div style=" height: 220px;"></div>
+            <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div style="font-family:edwardian; line-height:32px; letter-spacing:2px;" class="w3-xxxlarge fo2">
+                    Kirimkan<br>
+                    <span class="w3-xxlarge">Pesan & Doa Anda</span>
+                </div>
             </div>
-        </div>
-        <br>
-        <form action="#myform2" method="post" onSubmit="return confirm('Kirimkan pesan ini?');" id="myForm2">
-            <input type="hidden" name="action" value="gb">
-            <div data-aos="fade-up">
-                <table align="center" style="font-family:minion;" width="60%">
-                    <tr>
-                        <td><input class="w3-small fo1" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" placeholder="Nama"></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <textarea placeholder="Pesan & doa untuk Hanna & Ikhsan" class="w3-small fo1" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" rows="3"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <button class="bg2 fo1" type="submit" style="border-radius:5px; font-family:minion; width:100%;  border-color:white;">Kirim</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </form>
-        <div style="height: 300px;"></div>
-    </div>
+            <br>
+            <form action="#myform2" method="post" onSubmit="return confirm('Kirimkan pesan ini?');" id="myForm2">
+                <input type="hidden" name="action" value="gb">
+                <div data-aos="fade-up">
+                    <table align="center" style="font-family:minion;" width="60%">
+                        <tr>
+                            <td><input class="w3-small fo1" name="nama" type="text" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" placeholder="Nama"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea placeholder="Pesan & doa untuk Hanna & Ikhsan" class="w3-small fo1" name="ucapan" style="font-family:minion; border:1; border-radius:5px; width:100%; border-color:white;" rows="3"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <button class="bg2 fo1" type="submit" style="border-radius:5px; font-family:minion; width:100%;  border-color:white;">Kirim</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+            <div style="height: 300px;"></div>
+        </td>
+    </tr>
 </table>
 <div style="height: 10px;"></div>
 <div align="center" style="height:300px; margin-top:-80px;" id="gb">
