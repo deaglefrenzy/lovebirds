@@ -65,6 +65,7 @@ include("../.scripts/handlers.php");
             </div>
             <?php include("partials/countdown.php"); ?>
             <div style="background:url(material/bg1.png); background-size:100%;">
+                <div style="height: 50px;"></div>
                 <div align=left>
                     <img src="material/flower6.png" style="width: 150px; height:190px; object-fit: cover; object-position: 0px 0; position:relative;">
                 </div>

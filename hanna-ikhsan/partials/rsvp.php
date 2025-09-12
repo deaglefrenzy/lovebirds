@@ -25,7 +25,7 @@ $useWhatsApp = false;
 <table class="w3-medium" style="margin-top:-120px; background:url(material/box1.png); background-size:100%; background-repeat: no-repeat;" align="center" width="90%" id="rsvp">
     <tr>
         <td align="center">
-            <div style="height: 150px;"></div>
+            <div style="height: 70px;"></div>
             <div data-aos="fade">
                 <img src="material/flower5.png" style="width:30%;">
             </div>
