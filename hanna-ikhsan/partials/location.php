@@ -34,7 +34,7 @@
     <div class="fo3 minion w3-small" align=center data-aos="fade-up" style="margin-top: 10px;">
         Ir. H. Baharuddin Said
         <hr style="border-top: 1px solid #000; margin:1px 0 3px 0;" width="120px;">
-        Nariman Syamsul Bachri
+        Hj. Nariman Syamsul Bachri
         <br><br>
         (Alm.) Andi Mappadjantji Dg. Radja
         <hr style="border-top: 1px solid #000; margin:1px 0 3px 0;" width="180px;">

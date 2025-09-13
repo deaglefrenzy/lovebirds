@@ -73,13 +73,8 @@ include("../.scripts/handlers.php");
                 <div align=right>
                     <img src="material/flower7.png" style="width: 150px; height:210px; object-fit: cover; object-position: 0px 0; position:relative; margin-top:-250px;">
                 </div>
-                <div align=left>
-                    <img src="material/flower2.png" style="width: 250px; height:350px; object-fit: cover; object-position: 0 0; z-index:1; position:relative; margin-top:-200px;">
-                </div>
-                <div style="height: 50px;"></div>
-                <?php include("partials/guestbook.php"); ?>
             </div>
-            <div style="width: 100%; background: #1b346c;">
+            <div style="width: 100%; background: #1b346c; margin-top: -63px;">
                 <div style="height: 30px;"></div>
                 <div style="background:url(material/bg3.png); background-size:100%;">
                     <div style="height: 50px;"></div>

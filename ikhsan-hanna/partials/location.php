@@ -38,7 +38,7 @@
         <br><br>
         Ir. H. Baharuddin Said
         <hr style="border-top: 1px solid #000; margin:1px 0 3px 0;" width="120px;">
-        Nariman Syamsul Bachri
+        Hj. Nariman Syamsul Bachri
     </div>
 </div>
 <div style="height: 30px;"></div>
